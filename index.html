@@ -25,11 +25,19 @@
   <body>
     <main class="container">
       <section class="component card">
-        <img
-          class="img"
-          src="images/image-product-desktop.jpg"
-          alt="parfume image on a desk"
-        />
+        <!-- To use multiple images -->
+        <picture>
+          <source
+            media="(max-width:650px)"
+            srcset="images/image-product-mobile.jpg"
+          />
+          <img
+            class="img"
+            src="images/image-product-desktop.jpg"
+            alt="parfume image on a desk"
+          />
+        </picture>
+
         <div class="details">
           <span class="small-heading">Perfume </span>
           <h1 class="heading-primary">Gabrielle Essence Eau De Parfum</h1>

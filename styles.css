@@ -129,12 +129,6 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 2fr;
   }
-
-  .img {
-    width: 100%;
-    height: auto;
-    content: url("images/image-product-mobile.jpg");
-  }
 }
 
 @media (max-width: 450px) {
